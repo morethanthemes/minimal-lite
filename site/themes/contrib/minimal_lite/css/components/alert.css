@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's alerts.
+ */
+.header-top-highlighted__section .alert {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 14px;
+}
+.alert .close {
+  opacity: 1;
+  filter: alpha(opacity=1);
+  text-shadow: none;
+  padding: 0 10px;
+  height: 100%;
+  top: -8px;
+  right: 0;
+  font-size: 34px;
+  position: relative;
+}
+.alert .close:hover {
+  color: inherit;
+}

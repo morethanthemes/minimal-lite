@@ -1,0 +1,190 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's hero block.
+ */
+.field--name-field-mt-hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .field--name-field-mt-hero-title {
+    min-height: 185px;
+  }
+}
+.field--name-field-mt-hero-body {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.field--name-field-mt-hero-teaser {
+  margin-bottom: 15px;
+}
+.field--name-field-mt-hero-social-icon {
+  margin-bottom: 50px;
+}
+.field--name-field-mt-hero-teaser {
+  margin-top: 20px;
+}
+.field--name-field-mt-fa-icon-icon .fa-lg {
+  font-size: 22px;
+}
+.paragraph--type--mt-fa-icon {
+  padding: 5px 0;
+}
+.field--name-field-mt-hero-link a {
+  margin: 0 0 10px 0px;
+  display: inline-block;
+  background-color: transparent;
+  padding: 0;
+  text-align: left;
+  border: none;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+.field--name-field-mt-hero-link a:hover {
+  padding-left: 40px;
+}
+.field--name-field-mt-hero-link a:before {
+  width: 15px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.field--name-field-mt-hero-link a:hover:before {
+  width: 30px;
+}
+.region--dark-typography .field--name-field-mt-hero-link a {
+  color: #333333;
+}
+.region--dark-typography .field--name-field-mt-hero-link a:before {
+  background-color: #333333;
+}
+.region--light-typography .field--name-field-mt-hero-link a {
+  color: #ffffff;
+}
+.region--light-typography .field--name-field-mt-hero-link a:before {
+  background-color: #ffffff;
+}
+.headings-wide-spacing-enabled .field--name-field-mt-hero-link a {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+@media (max-width: 575px) {
+  .field--name-field-mt-hero-image {
+    margin: 0 -15px;
+  }
+}
+
+/*stacked layout*/
+.mt-hero--stacked-layout .field--name-field-mt-hero-body {
+  margin-bottom: 20px;
+}
+.mt-hero--stacked-layout .field--name-field-mt-hero-link {
+  margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .mt-hero--stacked-layout .field--name-field-mt-hero-title {
+    font-size: 36px;
+  }
+  .mt-hero--stacked-layout .field--name-field-mt-hero-title .typed-cursor {
+    font-size: 36px;
+  }
+  .mt-hero--stacked-layout .field--name-field-mt-hero-body {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .mt-hero--stacked-layout .field--name-field-mt-hero-link {
+    margin-bottom: 20px;
+  }
+  .field--name-field-mt-hero-teaser {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .mt-hero-teaser-field--items-1 .field__label {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: auto;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .mt-hero--stacked-layout .mt-hero-side {
+    display: none;
+  }
+}
+
+/*overlaid layout*/
+.mt-hero--overlaid-layout {
+  position: relative;
+}
+.hero-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 860px;
+  padding: 50px;
+}
+.region--white-background .hero-caption {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #ededed;
+  border-style: solid;
+}
+.region--gray-background .hero-caption {
+  background-color: #f6f6f6;
+}
+.region--dark-gray-background .hero-caption {
+  background-color: #333333;
+}
+.region--black-background .hero-caption {
+  background-color: #000000;
+}
+.region--white-pattern .hero-caption {
+  background-image: url('../../images/white-pattern.png');
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+@media (max-width: 1199px) {
+  .hero-caption {
+    max-width: 550px;
+    padding: 30px;
+  }
+  .mt-hero--overlaid-layout .field--name-field-mt-hero-title {
+    font-size: 36px;
+  }
+  .mt-hero--overlaid-layout .field--name-field-mt-hero-title .typed-cursor {
+    font-size: 36px;
+  }
+  .mt-hero--overlaid-layout .field--name-field-mt-hero-body {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .hero-caption {
+    max-width: 100%;
+    width: auto;
+    position: static;
+    padding: 0 0 30px 0;
+  }
+  .region--white-background .hero-caption {
+    border-width: 0;
+  }
+}

@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's recent comments.
+ */
+.view-mt-recent-comments .views-field-subject a {
+  font-weight: 500;
+}
+.region--light-typography .view-mt-recent-comments .views-field-subject a {
+  text-decoration: none;
+}
+.region--light-typography .view-mt-recent-comments .views-field-subject a:hover,
+.region--light-typography .view-mt-recent-comments .views-field-subject a:focus {
+  opacity: 0.8;
+}
+.view-mt-recent-comments .views-field-name {
+  display: block;
+  margin-bottom: 0px;
+}
+.view-mt-recent-comments .views-field-name a {
+  text-transform: capitalize;
+}
+.region--light-typography .view-mt-recent-comments .views-field-name {
+  color: rgba(255, 255, 255, 0.7);
+}
+.user-logged-in .region--light-typography .view-mt-recent-comments .views-field-name a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.view-mt-recent-comments .views-field-subject a {
+  padding: 6px 0 7px 0px;
+  line-height: 150%;
+  display: block;
+}
+.view-mt-recent-comments .views-field-subject a:before {
+  content: "\f086";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 20px;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}

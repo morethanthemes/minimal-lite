@@ -1,0 +1,88 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's sticky header.
+ */
+.sticky-wrapper {
+  position: relative;
+}
+.onscroll.transparent-header-active .header-container.js-transparent-header .sticky-wrapper {
+  height: 0 !important;
+}
+.fixed-header-enabled .header.js-fixed {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.onscroll.fixed-header-enabled--scroll-up.headroom--scroll-up .header.js-fixed,
+.onscroll.fixed-header-enabled--scroll .header.js-fixed {
+  opacity: 1;
+  position: fixed;
+  z-index: 499;
+  top: 0;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+}
+.modal-open.onscroll.fixed-header-enabled--scroll-up.headroom--scroll-up .header.js-fixed,
+.modal-open.onscroll.fixed-header-enabled--scroll .header.js-fixed {
+  z-index: 1041;
+}
+.modal-open.onscroll.fixed-header-enabled--scroll-up.headroom--scroll-up .header.js-fixed .region:not(.region-header-third),
+.modal-open.onscroll.fixed-header-enabled--scroll .header.js-fixed .region:not(.region-header-third),
+.modal-open .modal-icon-button {
+  display: none;
+}
+.onscroll .region--dark-typography.header.js-fixed {
+  border-bottom-color: hsla(0, 0%, 60%, 0.5);
+}
+.onscroll .header.js-fixed.region--white-background {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.onscroll .region--white-background .header.js-fixed {
+  background-color: rgba(29, 29, 29, 0.95);
+}
+.onscroll .header.js-fixed.region--black-background {
+  background-color: rgba(29, 29, 29, 0.90);
+}
+.onscroll .region--black-background .header.js-fixed {
+  background-color: rgba(29, 29, 29, 0.95);
+}
+.onscroll .header.js-fixed.region--gray-background {
+  background-color: rgba(244, 244, 244, 0.95);
+}
+.onscroll .region--gray-background .header.js-fixed {
+  background-color: rgba(29, 29, 29, 0.95);
+}
+.fixed-header-enabled.onscroll .header__container,
+.fixed-header-enabled.onscroll .header-second,
+.fixed-header-enabled.onscroll .header-third,
+.fixed-header-enabled.onscroll .header-first,
+.fixed-header-enabled.onscroll .header-container ul.menu {
+  -webkit-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+.fixed-header-enabled.onscroll .header__container {
+  padding: 5px 0;
+}
+.fixed-header-enabled.onscroll .header__section ul.menu {
+  padding-top: 10px;
+}
+.fixed-header-enabled.onscroll .header-container .sf-menu.menu > li > ul {
+  margin-top: 11px;
+}
+@media (max-width: 991px) {
+  .onscroll .header__container .header-first {
+    display: none;
+  }
+  .onscroll .header-container .content > ul.menu {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .onscroll .header.js-fixed {
+    display: none;
+  }
+}
