@@ -1,0 +1,122 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's views.
+ */
+.views-field-title a {
+  display: block;
+}
+
+/*more links*/
+.view > .more-link a {
+  margin: 0 0 10px 0px;
+  display: inline-block;
+  background-color: transparent;
+  padding:0;
+  text-align: left;
+  border: none;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+.view > .more-link a:hover {
+  padding-left: 40px;
+}
+.view > .more-link a:before {
+  width: 15px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.view > .more-link a:hover:before {
+  width: 30px;
+}
+.region--dark-typography .view > .more-link a {
+  color: #333333;
+}
+.region--dark-typography .view > .more-link a:before {
+  background-color: #333333;
+}
+.region--light-typography .view > .more-link a {
+  color: #ffffff;
+}
+.region--light-typography .view > .more-link a:before {
+  background-color: #ffffff;
+}
+.headings-wide-spacing-enabled .view > .more-link a {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.col-12 .view > .more-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.col-12 .view > .more-link a {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 40px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.col-12 .view > .more-link a:hover,
+.col-12 .view > .more-link a:focus {
+  background-color: transparent;
+}
+.col-12 .view > .more-link a:before {
+  width: 0;
+  height: 0;
+}
+.col-12 .view > .more-link a:after {
+  content: "";
+}
+.col-12 .view > .more-link a:hover,
+.col-12 .view > .more-link a:focus {
+  color: #ffffff;
+}
+.col-12 .view.view-mt-showcases-metro-tiles > .more-link {
+  margin-top: 40px;
+}
+.region--light-typography .col-12 .view > .more-link a {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+.region--light-typography .col-12 .view > .more-link a:hover,
+.region--light-typography .col-12 .view > .more-link a:focus {
+  background-color: #ffffff;
+  color: #424242;
+  border-color: #ffffff;
+}
+
+/*more links @sidebars and footer regions*/
+.footer__section .view > .more-link a {
+  margin: 10px 0 0;
+  text-transform: none;
+}
+
+/*clear grid floats*/
+.view.row .view-content:before,
+.view.row .view-content:after {
+  display: table;
+  content: " ";
+}
+.view.row .view-content:after {
+  clear: both;
+}

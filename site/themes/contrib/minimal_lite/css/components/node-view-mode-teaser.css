@@ -1,0 +1,115 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's node in teaser tile view.
+ */
+.node--view-mode-teaser {
+  margin-bottom: 60px;
+}
+.node--view-mode-teaser .promoted-label {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  padding: 2px 8px 2px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.node--view-mode-teaser .node__title {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.node--view-mode-teaser .node__header {
+  padding-bottom: 0;
+}
+.node--view-mode-teaser .field--name-field-mt-srv-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-prd-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-alb-image,
+.node--view-mode-teaser .field--name-field-mt-shw-image,
+.node--view-mode-teaser .field--name-field-image {
+  margin-bottom: 20px;
+}
+.node--view-mode-teaser .field--name-field-image .images-container,
+.node--view-mode-teaser .field--name-field-mt-srv-teaser-image .images-container,
+.node--view-mode-teaser .field--name-field-mt-prd-teaser-image .images-container,
+.node--view-mode-teaser .field--name-field-mt-alb-image .images-container,
+.node--view-mode-teaser .field--name-field-mt-shw-image .images-container {
+  margin-bottom: 0;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin-bottom: 0;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0;
+}
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: -1px 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  line-height: 1.35;
+  vertical-align: text-top;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+  padding: 2px 8px;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:after,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:after {
+  content: "";
+}
+
+.node--view-mode-teaser .field--name-field-mt-prd-body,
+.node--view-mode-teaser .field--name-field-mt-srv-body,
+.node--view-mode-teaser .field--name-field-mt-shw-body,
+.node--view-mode-teaser .field--name-field-mt-alb-body {
+  margin-bottom: 15px;
+}
+.node--view-mode-teaser .field--name-field-mt-prd-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-srv-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-shw-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-alb-body p:last-child {
+  padding-bottom: 0px;
+}
+.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container {
+  position: relative;
+}
+.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date {
+  position: absolute;
+  background-color: #ffffff;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0;
+  padding: 10px;
+  color: #333333;
+  text-align: center;
+}
+.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}

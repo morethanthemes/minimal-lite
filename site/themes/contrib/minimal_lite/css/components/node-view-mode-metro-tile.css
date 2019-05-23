@@ -1,0 +1,112 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's node in teaser tile view.
+ */
+.node--view-mode-mt-metro-tile {
+  margin-bottom: 16px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .node--view-mode-mt-metro-tile {
+    margin-bottom: 11px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .node--view-mode-mt-metro-tile {
+    margin-bottom: 8px;
+  }
+}
+.view-mt-metro-tiles .view-content {
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+}
+.view-mt-metro-tiles .view-content:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.view-mt-metro-tiles .views-row {
+  float: left;
+  width: 100%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+@media (min-width: 768px) {
+  .view-mt-metro-tiles .views-row {
+    width: 49%;
+  }
+}
+@media (min-width: 992px) {
+  .view-mt-metro-tiles .views-row {
+    width: 24%;
+  }
+}
+.view-mt-metro-tiles .images-container {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .view-mt-metro-tiles .views-row.view--current-page--0:first-child,
+  .view-mt-metro-tiles .views-row.view--current-page--0:nth-child(2),
+  .view-mt-metro-tiles .views-row.view--current-page--0:nth-child(3),
+  .view-mt-metro-tiles .views-row.view--current-page--:first-child,
+  .view-mt-metro-tiles .views-row.view--current-page--:nth-child(2),
+  .view-mt-metro-tiles .views-row.view--current-page--:nth-child(3) {
+    width: 49%;
+  }
+}
+.node--view-mode-mt-metro-tile .metro-tile-container {
+  position: relative;
+}
+.node--view-mode-mt-metro-tile .metro-tile__caption {
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 80%;
+  max-width: 80%;
+}
+.node--type-mt-product.node--view-mode-mt-metro-tile .metro-tile__caption {
+  padding: 20px 15px;
+  width: 90%;
+  max-width: 90%;
+}
+.node--view-mode-mt-metro-tile:hover .metro-tile__caption {
+  padding-bottom: 40px;
+}
+.node--view-mode-mt-metro-tile .metro-tile__caption a {
+  color: #333333;
+  text-decoration: none;
+}
+.node--view-mode-mt-metro-tile .metro-tile__price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 1.2;
+  opacity: 0.7;
+  margin-left: 15px;
+}
+.node--view-mode-mt-metro-tile .metro-tile__caption .node__submitted-date {
+  font-size: 12px;
+}
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0;
+  padding: 0;
+}
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+  font-size: 14px;
+  color: #707070;
+}
+.node--type-mt-showcase.node--view-mode-mt-metro-tile .image-and-date-container .node__submitted-date {
+  font-size: 14px;
+}

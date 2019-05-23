@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ * Minimal_lite's theme implementation to display a Article node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block node_side %}
+{% endblock %}
+{% block meta_area %}
+  {{ content.field_image }}
+
+  {% if display_submitted or content.field_tags|render %}
+    <div class="node__meta">
+      {% if display_submitted %}
+        {{ metadata }}
+        <span class="node__meta-item">
+          {{ node.createdtime|format_date('custom', 'M d, Y') }}
+        </span>
+      {% endif %}
+      {% if content.field_tags|render %}
+        <span class="node__meta-item node__meta-tags">
+          {{ content.field_tags }}
+        </span>
+      {% endif %}
+      {% if display_submitted %}
+        <span{{ author_attributes.addClass('node__meta-user node__meta-item') }}>
+          {{ author_name }}
+        </span>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {{ title_prefix }}
+  <h4{{ title_attributes.addClass('node__title mt-0') }}>
+    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+  </h4>
+  {{ title_suffix }}
+
+{% endblock %}
+{% block content %}
+  {{ attach_library('minimal_lite/node-view-mode-teaser-tile') }}
+  <div class="node__main-content-section">
+    {{ content|without('field_image', 'field_tags') }}
+  </div>
+  {{ content.links }}
+{% endblock %}

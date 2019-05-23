@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Visual styles for Magazine+'s post progress component.
+ */
+.post-progress {
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 5px;
+  z-index: 500;
+  width: 100%;
+}
+.toolbar-horizontal .post-progress,
+.toolbar-vertical .post-progress {
+  top: 39px;
+}
+.toolbar-horizontal.toolbar-tray-open .post-progress {
+  top: 79px;
+}
+.post-progress__value {
+  font-size: 16px;
+}
+.post-progress__text {
+  color: #505050;
+  font-size: 15px;
+}
+.post-progress__bar {
+  width: 0;
+  height: 5px;
+}
+@media (max-width: 767px) {
+  .post-progress {
+    top: 0!important;
+    position: fixed!important;
+  }
+}

@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's latest items views.
+ */
+.view-latest-items .views-row {
+  margin-bottom: 20px;
+  clear: both;
+}
+.view-latest-items .views-field-field-image,
+.view-latest-items .views-field-field-mt-prd-image,
+.view-latest-items .views-field-field-mt-srv-image {
+  width: 100px;
+  margin-right: 16px;
+  float: left;
+}
+.view-latest-items .views-field-field-image ~ .views-field-title,
+.view-latest-items .views-field-field-image ~ .views-field-body,
+.view-latest-items .views-field-field-mt-prd-image ~ .views-field-title,
+.view-latest-items .views-field-field-mt-prd-image ~ .views-field-field-mt-prd-body,
+.view-latest-items .views-field-field-mt-srv-image ~ .views-field-title,
+.view-latest-items .views-field-field-mt-srv-image ~ .views-field-field-mt-srv-body,
+.view-latest-items .views-field-field-image ~ .views-field-created {
+  margin-left: 116px;
+}
+.view-latest-items .views-field-title {
+  margin-bottom: 5px;
+}
+.view-latest-items .views-field-title a {
+  display: inline;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.headings-wide-spacing-enabled .view-latest-items .views-field-title a {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.view-latest-items .views-field-title a:hover {
+  text-decoration: none;
+}
+.view-latest-items .views-field-body,
+.view-latest-items .views-field-field-mt-prd-body,
+.view-latest-items .views-field-field-mt-srv-body {
+  line-height: 1.5;
+}
+.view-latest-items .views-field-body p,
+.view-latest-items .views-field-field-mt-prd-body p,
+.view-latest-items .views-field-field-mt-srv-body p {
+  padding: 0;
+}
+.view-latest-items .views-field-created {
+  font-size: 16px;
+}
+.region--dark-typography .view-latest-items .views-field-created {
+  color: #939393;
+}
+@media (min-width:992px) {
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image {
+    display: none;
+  }
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-body,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image ~ .views-field-field-mt-prd-body,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image ~ .views-field-field-mt-srv-body,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-created {
+    margin-left: 0;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  .view-latest-items .views-row {
+    clear: none;
+  }
+  .view-latest-items .view-content ~ .more-link {
+    margin-left: 0;
+  }
+}
+@media (max-width:575px) {
+  .view-latest-items .col-xs-6.col-md-12 {
+    width: 100%;
+    float: none;
+  }
+}
+.view-latest-items .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

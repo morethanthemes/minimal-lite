@@ -1,0 +1,46 @@
+/**
+ * @file
+ * Visual styles for Minimal_lite's team member content type.
+ */
+.page-node-type-mt-team-member h1.page-title {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.page-node-type-mt-team-member .node__header {
+  padding: 0;
+}
+.page-node-type-mt-team-member .field.field--name-field-mt-tmm-body {
+  margin-bottom: 20px;
+}
+.page-node-type-mt-team-member .field.field--name-field-mt-tmm-member-photo {
+  margin-bottom: 20px;
+}
+@media (max-width: 575px) {
+  .page-node-type-mt-team-member .field.field--name-field-mt-tmm-member-photo {
+    margin: 0 -15px 20px;
+  }
+}
+.page-node-type-mt-team-member .field.field--name-field-mt-tmm-subtitle {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.20;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.page-node-type-mt-team-member .region--dark-typography .field--name-field-mt-tmm-subtitle {
+  color: #6c6c6c;
+}
+.page-node-type-mt-team-member .icons-list {
+  padding-bottom: 20px;
+}
+.page-node-type-mt-team-member .field.field--name-field-mt-tmm-subheader-body {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.region--dark-typography .field--name-field-mt-tmm-subheader-body {
+  color: #2a2a2a;
+}
+.field--name-field-mt-tmm-subheader-body p {
+  padding-bottom: 25px;
+}

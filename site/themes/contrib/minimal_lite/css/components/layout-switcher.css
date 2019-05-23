@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Styles for Minimal_lite's layout switcher.
+ */
+.layout-switcher {
+  margin-bottom: 30px;
+}
+.layout-switcher__heading {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: normal;
+  font-size: inherit;
+}
+.layout-switcher ul.inline-list {
+  margin-right: -2px;
+  margin-left: -2px;
+}
+.layout-switcher ul li.inline-list__item {
+  margin: 0 2px;
+  padding: 0;
+}
+.layout-switcher ul li.inline-list__item a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #707070;
+}
+.layout-switcher ul li.inline-list__item a:hover,
+.layout-switcher ul li.inline-list__item a:active,
+.layout-switcher ul li.inline-list__item a:focus {
+  text-decoration: none;
+}
+.region--dark-typography.region--gray-background .layout-switcher li a {
+  color: #c5c5c5;
+}
+.region--light-typography.region--colored-background .layout-switcher li.active a {
+  color: #ffffff;
+}
+.region--light-typography .layout-switcher li a:hover,
+.region--light-typography .layout-switcher li a:focus {
+  color: #ffffff;
+}
+.region--dark-typography .layout-switcher li a {
+  color: #424242;
+}

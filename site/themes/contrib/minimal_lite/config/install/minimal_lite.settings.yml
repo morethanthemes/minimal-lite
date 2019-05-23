@@ -1,0 +1,223 @@
+affix_side: true
+animations_state: true
+banner_background_color: 'region--dark-typography region--white-background'
+banner_blocks_paddings: true
+banner_id: 'banner'
+banner_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+banner_region_paddings: true
+bootstrap_remote_type: 'cdn'
+breadcrumb_separator: 'fa-angle-right'
+color_scheme: 'orange'
+content_bottom_animation_effect: 'no-animation'
+content_bottom_background_color: 'region--dark-typography region--white-background'
+content_bottom_blocks_paddings: false
+content_bottom_id: 'content-bottom'
+content_bottom_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+content_bottom_region_paddings: true
+content_bottom_separator: 'region--no-separator'
+content_top_animation_effect: 'no-animation'
+content_top_background_color: 'region--dark-typography region--white-background'
+content_top_blocks_paddings: false
+content_top_highlighted_animation_effect: 'no-animation'
+content_top_highlighted_background_color: 'region--dark-typography region--white-background'
+content_top_highlighted_blocks_paddings: false
+content_top_highlighted_id: 'content-top-highlighted'
+content_top_highlighted_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+content_top_highlighted_region_paddings: true
+content_top_highlighted_separator: 'region--no-separator'
+content_top_id: 'content-top'
+content_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+content_top_region_paddings: false
+featured_animation_effect: 'no-animation'
+featured_background_color: 'region--dark-typography region--white-background'
+featured_blocks_paddings: false
+featured_bottom_animation_effect: 'no-animation'
+featured_bottom_background_color: 'region--dark-typography region--gray-background'
+featured_bottom_blocks_paddings: false
+featured_bottom_id: 'featured-bottom'
+featured_bottom_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+featured_bottom_region_paddings: false
+featured_bottom_separator: 'region--no-separator'
+featured_id: 'featured'
+featured_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+featured_region_paddings: false
+featured_separator: 'region--no-separator'
+featured_top_animation_effect: 'no-animation'
+featured_top_background_color: 'region--dark-typography region--white-background'
+featured_top_blocks_paddings: false
+featured_top_id: 'featured-top'
+featured_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+featured_top_region_paddings: false
+featured_top_separator: 'region--no-separator'
+fixed_header: true
+fixed_header_behavior: 'fixed-header-enabled--scroll-up'
+font_resize: true
+footer_animation_effect: 'no-animation'
+footer_background_color: 'region--dark-typography region--white-background'
+footer_blocks_paddings: false
+footer_bottom_background_color: 'region--dark-typography region--white-background'
+footer_bottom_blocks_paddings: false
+footer_bottom_id: 'footer-bottom'
+footer_bottom_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+footer_bottom_region_paddings: false
+footer_bottom_separator: 'region--no-separator'
+footer_id: 'footer'
+footer_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+footer_region_paddings: false
+footer_separator: 'region--no-separator'
+footer_top_animation_effect: 'no-animation'
+footer_top_background_color: 'region--dark-typography region--white-background'
+footer_top_blocks_paddings: false
+footer_top_id: 'footer-top'
+footer_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+footer_top_region_paddings: false
+footer_top_separator: 'region--no-separator'
+sticky_footer_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+sticky_footer_background_color: 'region--dark-typography region--white-background'
+sticky_footer_blocks_paddings: false
+sticky_footer_region_paddings: false
+sticky_footer_trigger_text: ''
+google_maps_key: ''
+header_background_color: 'region--dark-typography region--white-background'
+header_background_image_state: false
+header_blocks_paddings: false
+header_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+header_region_paddings: false
+header_top_animation_effect: 'no-animation'
+header_top_background_color: 'region--dark-typography region--white-background'
+header_top_blocks_paddings: false
+header_top_highlighted_animation_effect: 'no-animation'
+header_top_highlighted_background_color: 'region--light-typography region--dark-background'
+header_top_highlighted_blocks_paddings: false
+header_top_highlighted_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+header_top_highlighted_region_paddings: true
+header_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+header_top_region_paddings: false
+headings_font_family: 'hff-32'
+headings_wide_spacing: false
+highlighted_animation_effect: 'no-animation'
+highlighted_background_color: 'region--dark-typography region--white-background'
+highlighted_blocks_paddings: false
+highlighted_id: 'highlighted'
+highlighted_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+highlighted_region_paddings: false
+highlighted_separator: 'region--no-separator'
+highlighted_top_animation_effect: 'no-animation'
+highlighted_top_background_color: 'region--dark-typography region--gray-background'
+highlighted_top_blocks_paddings: false
+highlighted_top_id: 'highlighted-top'
+highlighted_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+highlighted_top_region_paddings: false
+highlighted_top_separator: 'region--no-separator'
+in_page_navigation_offset: '69'
+in_page_slider_effect: 'slide'
+inverted_header_state: false
+isotope_filters_text: 'All'
+isotope_layout_mode: 'masonry'
+layout_mode: 'wide'
+main_content_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+main_content_animation_effect: 'fadeIn'
+main_content_blocks_paddings: false
+main_content_id: 'main-content'
+main_content_region_paddings: false
+main_content_separator: 'region--no-separator'
+owl_albums_autoplay: true
+owl_albums_effect_time: '5'
+owl_articles_autoplay: true
+owl_articles_effect_time: '5'
+owl_collections_autoplay: false
+owl_collections_effect_time: '5'
+owl_products_autoplay: true
+owl_products_effect_time: '5'
+owl_promoted_posts_autoplay: false
+owl_promoted_posts_effect_time: '5'
+owl_related_nodes_autoplay: false
+owl_related_nodes_effect_time: '5'
+owl_team_members_autoplay: true
+owl_team_members_effect_time: '5'
+owl_testimonials_autoplay: true
+owl_testimonials_effect_time: '5'
+page_container_border: false
+paragraph_font_family: 'pff-51'
+paragraph_responsive_typography: true
+post_progress: true
+print_button: true
+reading_time: true
+rs_slideshow_background_opacity: '50'
+rs_slideshow_boxedwidth_bullets_position: 'right'
+rs_slideshow_boxedwidth_effect: 'random'
+rs_slideshow_boxedwidth_effect_time: '10'
+rs_slideshow_boxedwidth_initial_height: '650'
+rs_slideshow_boxedwidth_auto_height: false
+rs_slideshow_boxedwidth_navigation_style: 'titles_carousel'
+rs_slideshow_boxedwidth_touch_swipe: true
+rs_slideshow_caption_opacity: '0'
+rs_slideshow_fullscreen_bullets_position: 'right'
+rs_slideshow_fullscreen_effect: 'random'
+rs_slideshow_fullscreen_effect_time: '10'
+rs_slideshow_fullscreen_navigation_style: 'bullets'
+rs_slideshow_fullscreen_touch_swipe: true
+rs_slideshow_fullwidth_bullets_position: 'right'
+rs_slideshow_fullwidth_effect: 'random'
+rs_slideshow_fullwidth_effect_time: '10'
+rs_slideshow_fullwidth_initial_height: '650'
+rs_slideshow_fullwidth_auto_height: false
+rs_slideshow_fullwidth_navigation_style: 'bullets'
+rs_slideshow_fullwidth_touch_swipe: true
+rs_slideshow_internal_banner_bullets_position: 'left'
+rs_slideshow_internal_bullets_position: 'left'
+rs_slideshow_internal_carousel_bullets_position: 'center'
+rs_slideshow_internal_carousel_effect: 'fade'
+rs_slideshow_internal_carousel_initial_height: '540'
+rs_slideshow_internal_carousel_touch_swipe: true
+rs_slideshow_internal_effect: 'fade'
+rs_slideshow_internal_effect_time: '10'
+rs_slideshow_internal_initial_height: '450'
+rs_slideshow_internal_auto_height: true
+rs_slideshow_internal_navigation_style: 'bullets'
+rs_slideshow_internal_touch_swipe: true
+scroll_to_top_display: false
+scroll_to_top_icon: 'fa-angle-double-up'
+share_links: true
+share_links_print_position: "bottom"
+sidebar_first_animation_effect: 'fadeIn'
+sidebar_first_blocks_paddings: false
+sidebar_first_region_paddings: false
+sidebar_second_animation_effect: 'fadeIn'
+sidebar_second_blocks_paddings: false
+sidebar_second_region_paddings: false
+sitename_font_family: 'sff-51'
+slideout_background_color: 'region--light-typography region--dark-background'
+slideout_mobile_menu_display: false
+slideout_blocks_paddings: false
+slideout_region_paddings: false
+slideout_side: 'right'
+slideout_touch_swipe: false
+slogan_font_family: 'slff-51'
+sub_featured_animation_effect: 'no-animation'
+sub_featured_background_color: 'region--dark-typography region--white-background'
+sub_featured_blocks_paddings: false
+sub_featured_id: 'sub-featured'
+sub_featured_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+sub_featured_region_paddings: false
+sub_featured_separator: 'region--no-separator'
+subfooter_background_color: 'region--dark-typography region--white-background'
+subfooter_blocks_paddings: false
+subfooter_bottom_blocks_paddings: false
+subfooter_bottom_region_paddings: false
+subfooter_id: 'subfooter'
+subfooter_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+subfooter_region_paddings: false
+subfooter_separator: 'region--no-separator'
+subfooter_top_background_color: 'region--dark-typography region--white-background'
+subfooter_top_blocks_paddings: false
+subfooter_top_id: 'subfooter-top'
+subfooter_top_layout_container: 'container-fluid pl-xl-5 pr-xl-5'
+subfooter_top_region_paddings: false
+subfooter_top_separator: 'region--no-separator'
+transparent_header_opacity: '0'
+transparent_header_state: false
+purechat_key: ''
+purechat_display: false
+mobile_menu_widget_display: true
+mobile_menu_widget_sticky: true

@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Minimal_lite's theme implementation to display post-progress bar.
+ */
+#}
+
+{% extends "page.html.twig" %}
+{% block reading_progress_indicator %}
+  {% if post_progress %}
+    {{ attach_library('minimal_lite/post-progress') }}
+    <div class="post-progress">
+      <div class="post-progress__bar"></div>
+    </div>
+  {% endif %}
+{% endblock %}
