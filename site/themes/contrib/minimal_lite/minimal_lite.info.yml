@@ -2,7 +2,7 @@ name: Minimal Lite
 type: theme
 base theme: classy
 description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
-core: 8.x
+# core: 8.x
 libraries:
   - minimal_lite/global-styling
   - minimal_lite/messages
@@ -57,3 +57,9 @@ regions:
   sticky_footer: 'Sticky Footer'
   mobile_menu_widget: 'Mobile Menu Widget'
   hidden_blocks_collection: 'Hidden blocks collection'
+
+# Information added by Drupal.org packaging script on 2019-05-28
+version: '8.x-1.0'
+core: '8.x'
+project: 'minimal_lite'
+datestamp: 1559050999
